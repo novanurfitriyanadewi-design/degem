@@ -1,1 +1,48 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#150d2e"/>
+      <stop offset="0.55" stop-color="#4a1d7a"/>
+      <stop offset="1" stop-color="#c2417a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9ad5"/>
+      <stop offset="1" stop-color="#b794f6"/>
+    </linearGradient>
+  </defs>
 
+  <style>
+    .fade { opacity: 0; animation: fadeUp 0.9s ease forwards; }
+    .d1 { animation-delay: 0.2s; }
+    .d2 { animation-delay: 0.7s; }
+    .d3 { animation-delay: 1.2s; }
+    .d4 { animation-delay: 1.7s; }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .float1 { animation: float 6s ease-in-out infinite; }
+    .float2 { animation: float 8s ease-in-out infinite reverse; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-14px); }
+    }
+    .name { font: 800 52px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 2px; }
+    .role { font: 600 24px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .sub  { font: 400 18px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .code { font: 700 150px 'Courier New', monospace; }
+  </style>
+
+  <rect width="1000" height="260" rx="20" fill="url(#bg)"/>
+
+  <circle class="float1" cx="880" cy="60" r="70" fill="#ffffff" fill-opacity="0.06"/>
+  <circle class="float2" cx="760" cy="210" r="45" fill="#ffffff" fill-opacity="0.08"/>
+  <circle class="float1" cx="120" cy="230" r="30" fill="#ffffff" fill-opacity="0.07"/>
+
+  <text class="code" x="690" y="175" fill="#ffffff" fill-opacity="0.12">&lt;/&gt;</text>
+
+  <text class="name fade d1" x="60" y="105" fill="#ffffff">NOVA NURFITRIYANA</text>
+  <rect class="fade d2" x="60" y="122" width="150" height="5" rx="2.5" fill="url(#accent)"/>
+  <text class="role fade d3" x="60" y="170" fill="url(#accent)">Web &amp; Mobile Developer</text>
+  <text class="sub fade d4" x="60" y="205" fill="#ffffff" fill-opacity="0.85">Mahasiswa Sistem Informasi  •  UNIPDU</text>
+</svg>
