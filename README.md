@@ -35,7 +35,7 @@
 |---|---|---|
 | [Website Administrasi Ormawa](https://github.com/novanurfitriyanadewi-design/website-administrasi-ormawa) | Website administrasi untuk organisasi mahasiswa | Laravel |
 | [Aplikasi Magang & Karyawan CV. Natusi](https://github.com/novanurfitriyanadewi-design/project_magang_natusi ). | Aplikasi untuk mengelola data magang dan karyawan di CV. Natusi | Laravel |
-| [Bhayangkara News (CV. Natusi)](https://github.com/cv-natusi/bhayangkaranews bhayangkara).| Website berita Bhayangkara yang dikembangkan di CV. Natusi | Laravel |
+| [Bhayangkara News (CV. Natusi)].(https://github.com/cv-natusi/bhayangkaranews bhayangkara).| Website berita Bhayangkara yang dikembangkan di CV. Natusi | Laravel |
 | [Store Adidas](https://github.com/novanurfitriyanadewi-design/store-adidas) | Website toko online Adidas | Laravel |
 | [Riyana Travel](https://github.com/novanurfitriyanadewi-design/riyana-travel) | Website layanan travel | Laravel |
 
