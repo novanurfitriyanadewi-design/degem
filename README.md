@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Nova Nurfitriyana" width="100%" />
+<img src="./banner.svg" alt="Nova Nurfitriyana Dewi" width="100%" />
 
 <br/>
 
